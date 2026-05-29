@@ -31,7 +31,8 @@ public class importAndOrganize {
 						//readOut.replace(",", " | ");
 						//readOut = readOut.strip();
 						
-						ArrayList<String> dataVals = new ArrayList<String>(Arrays.asList(readOut.split(",")));
+						ArrayList<String> dataVals = new ArrayList<String>(Arrays.asList(readOut/*.split(",")*/));
+						//System.out.print(dataVals.get(0));
 						System.out.println(dataVals);
 						
 						//...Are you kidding me right now. Did it fucking split these into arrays on it's own???? 

@@ -17,7 +17,8 @@ public class sword_main {
 		//hodo.outputWin();
 		
 		System.out.println("\n");
-		importAndOrganize impTest = new importAndOrganize();
+		//importAndOrganize impTest = new importAndOrganize();
+		importV2 impTest = new importV2();
 		impTest.readFile(); //error here when it read. 
 
 
